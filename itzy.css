@@ -1,0 +1,326 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My CSS */
+
+body {
+  background-color: #dbdbdb;
+  font-family: "Manrope", sans-serif;
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.back {
+  background-color: transparent;
+  z-index: 5;
+  position: fixed;
+}
+
+.back a {
+  font-weight: 800;
+  font-size: 36px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #4c4c4c;
+  letter-spacing: 7px;
+}
+
+.back a:hover {
+  color: #85c7f2;
+  transition: 0.5s;
+}
+
+.container-content {
+  width: 100%;
+}
+
+.itzy-head h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #4c4c4c;
+  text-shadow: 4px 3px 0px #85c7f2, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.itzy-content img {
+  width: 1000px;
+  border-radius: 50px;
+}
+
+.itzy-video h1 {
+  font-size: 48px;
+  color: #4c4c4c;
+  text-shadow: 4px 3px 0px #85c7f2, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  margin-left: 10px;
+  margin: 100px 0 50px 0;
+  font-weight: bold;
+  letter-spacing: 10px;
+  transition: 1s;
+}
+
+.itzy-video h1:hover {
+  text-shadow: 0px 0px 0px #85c7f2, 0px 0px 0px rgba(0, 0, 0, 0.15);
+  transition: 1s;
+}
+
+.itzy-table {
+  margin: auto;
+}
+
+.itzy-aotm h1 {
+  color: #4c4c4c;
+  text-shadow: 4px 3px 0px #85c7f2, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  font-weight: bold;
+  margin: 100px 0 50px 0;
+  font-size: 36px;
+  letter-spacing: 5px;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.itzy-aotm h1:hover {
+  text-shadow: 0px 0px 0px #85c7f2, 0px 0px 0px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  color: #85c7f2;
+  cursor: pointer;
+}
+
+.itzy-choom {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.itzy-choom iframe {
+  margin: 0 5px;
+}
+
+.container-schedule {
+  position: relative;
+  width: 1100px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  z-index: 111;
+  padding: 1 0px 50px 150px 50px;
+}
+.container-schedule.schedule > div {
+  float: left;
+}
+.left-schedule {
+  position: relative;
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  padding-right: 5%;
+  display: block;
+}
+
+.header-schedule {
+  width: 495px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid black;
+}
+
+.header-schedule H1 {
+  text-align: left;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.header-schedule a {
+  text-decoration: none;
+  color: #4c4c4c;
+  transition: 0.5s;
+}
+
+.header-schedule a:hover {
+  color: #85c7f2;
+  transition: 0.5s;
+  letter-spacing: 10px;
+}
+
+.sch_cont {
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.sch_cont .sch_detail {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.sch_cont .sch_detail .dt_date {
+  font-size: 9pt;
+  width: 100%;
+  font-weight: 500;
+}
+
+.sch_cont .sch_detail li {
+  font-size: 11pt;
+  line-height: 25px;
+}
+
+.sch_cont .sch_detail li .sbt_etc {
+  background-color: #f1bd4c;
+}
+
+.sch_cont .sch_detail li .sbt_tv {
+  background-color: #f596c3;
+}
+
+.sch_cont .sch_detail li span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  font-size: 7pt;
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  line-height: 16px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.footer {
+  width: 100%;
+  height: 89px;
+}
+
+.footer {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 89px;
+  text-align: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+}

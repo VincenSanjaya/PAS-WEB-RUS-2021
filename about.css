@@ -1,0 +1,332 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* My Css */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  height: 1000px;
+  background: #dbdbdb;
+  font-family: "Manrope", sans-serif;
+}
+
+.container-navbar {
+  position: absolute;
+  width: 1380px;
+  height: 45px;
+  left: 30px;
+  top: 20px;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo h1 {
+  position: absolute;
+  width: 244px;
+  height: 35px;
+  left: 25px;
+  top: 20px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27px;
+  line-height: 37px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-box #home {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  left: 1165px;
+  top: 20px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-box #about {
+  position: absolute;
+  width: 127px;
+  height: 35px;
+  left: 1268px;
+  top: 20px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navigation-box #contact {
+  position: absolute;
+  width: 147px;
+  height: 35px;
+  left: 1268px;
+  top: 20px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-navbar span {
+  position: absolute;
+  width: 1380px;
+  height: 0px;
+  left: 30px;
+  top: 65px;
+  border: 1px solid #000000;
+  background-color: black;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-picture {
+  width: 495px;
+  height: 620px;
+  left: 210px;
+  top: 180px;
+}
+
+.profile-bg {
+  position: absolute;
+  width: 450px;
+  height: 590px;
+  left: 210px;
+  top: 180px;
+  background: rgba(214, 72, 39, 0.3);
+}
+
+.profile-photo {
+  position: absolute;
+  width: 455px;
+  height: 580px;
+  left: 250px;
+  top: 220px;
+  box-shadow: 15px 15px 20px #6a6a6a;
+}
+
+.profile-name h2 {
+  position: absolute;
+  width: 288px;
+  height: 100px;
+  left: 755px;
+  top: 570px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #000000;
+}
+
+.profile-name h3 {
+  position: absolute;
+  width: 467px;
+  height: 100px;
+  left: 755px;
+  top: 630px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #000000;
+}
+
+.profile-name h4 {
+  position: absolute;
+  width: 467px;
+  height: 100px;
+  left: 755px;
+  top: 680px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #000000;
+}
+
+.footer {
+  position: absolute;
+  width: 1440px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
+
+.footer h1 {
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  left: 630px;
+  top: 900px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.085em;
+  color: #4c4c4c;
+}
